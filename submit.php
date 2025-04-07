@@ -12,8 +12,6 @@ $roll_no =isset( $_POST['roll_no']) ?  $_POST['roll_no'] : '';
 $file_path =isset( $_POST['file_path']) ?  $_POST['file'] : '';
 
 
-
-
 $sql = " INSERT INTO assignments( course, subject, title, description,submission_date, name, roll_no, file_path ) VALUES(:course, :subject, :title, :description, :submission_date, :name, :roll_no, :file_path )";
 $req = $pdo->prepare($sql);
 $exec = $req->execute(array(
@@ -27,10 +25,10 @@ $exec = $req->execute(array(
     ':file_path'=>$file_path
 ));
 if ($exec) {
-    echo "donnees inseré";
+    echo "donnees inseré avec succées";
     
 }else{
-    echo "echec d'insertion";
+    echo "echec d'insertion de données";
 }
 
 ?>

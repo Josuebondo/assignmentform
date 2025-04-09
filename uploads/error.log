@@ -1,0 +1,36 @@
+[09-Apr-2025 18:09:35 Europe/Berlin] PHP Warning:  Undefined variable $b in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 6
+[09-Apr-2025 18:17:03 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function geterror(), 0 passed in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11 and exactly 2 expected in C:\xampp\htdocs\assignmentform\gestion_erreur.php:6
+Stack trace:
+#0 C:\xampp\htdocs\assignmentform\gestion_erreur.php(11): geterror()
+#1 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 6
+[09-Apr-2025 18:17:07 Europe/Berlin] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function geterror(), 0 passed in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11 and exactly 2 expected in C:\xampp\htdocs\assignmentform\gestion_erreur.php:6
+Stack trace:
+#0 C:\xampp\htdocs\assignmentform\gestion_erreur.php(11): geterror()
+#1 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 6
+[09-Apr-2025 18:18:06 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "b" in C:\xampp\htdocs\assignmentform\gestion_erreur.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11
+[09-Apr-2025 18:18:24 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "b" in C:\xampp\htdocs\assignmentform\gestion_erreur.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11
+[09-Apr-2025 18:18:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "b" in C:\xampp\htdocs\assignmentform\gestion_erreur.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11
+[09-Apr-2025 18:19:09 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "b" in C:\xampp\htdocs\assignmentform\gestion_erreur.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11
+[09-Apr-2025 18:19:11 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "b" in C:\xampp\htdocs\assignmentform\gestion_erreur.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11
+[09-Apr-2025 18:19:22 Europe/Berlin] PHP Fatal error:  Uncaught Error: Undefined constant "b" in C:\xampp\htdocs\assignmentform\gestion_erreur.php:11
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\assignmentform\gestion_erreur.php on line 11
+[09-Apr-2025 18:23:26 Europe/Berlin] Ceci est un message d'erreur personnalisé.

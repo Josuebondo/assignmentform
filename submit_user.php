@@ -14,6 +14,7 @@ $exec = $req->execute(array(
     ':nom'=>$nom,
     ':prenom'=>$prenom,
     ':email'=>$email
+ 
 ));
 if ($exec) {
     echo "donnees inseré";

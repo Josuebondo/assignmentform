@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Assignment Information</h2>
+        <h2>User Information</h2>
         <form action="submit_user.php" method="POST" enctype="multipart/form-data">
             <div class="form-group">
                 <label>nom</label>
@@ -22,12 +22,21 @@
             <div class="form-group">
                 <label>email</label>
                 <input type="text" name="email" required>
+               
+      
 
             <div class="buttons">
                 <button type="submit" class="submit-btn">Submit</button>
                 <button type="reset" class="reset-btn">Reset</button>
             </div>
+            <div class="resut">
+                <php
+                    inclusde '/submit_user.php';
+                
+                ?>
+            </div>
         </form>
     </div>
+   
 </body>
 </html>
